@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       <title>Cognizant Payroll Management System</title>
+        <link rel="stylesheet" href="C:\Users\admin\Desktop\own\index.css">
+        <header>
+            <h1>COGNIZANT</h1>
+            <h2>Payroll Management System</h2>
+    </header>
+        <div class=four>
+        <a href="index.html">Home</a>
+        <a href="C:\Users\admin\Desktop\own\Employee Details.html">Employee Details</a>
+        <a href="pay.html">Payslip</a>
+        <a href="Contact Us">Contact us</a>
+    </div>
+    <style type="text/css">
+    html {
+  background-image: url("one.jpg");
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+}
+header{
+  background-image: url(two.jpg);
+    padding: 20px;
+    text-align: center;
+}
+body{
+  background-color: rgb(78, 134, 238);
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 5%;
+ }
+* {
+  box-sizing: border-box;
+}
+ .four{
+  overflow: hidden;
+  background-color: #333;
+}
+ .four a {
+  float: left;
+  display: block;
+  color: #07fad1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.four a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.column {
+  float: right;
+  padding:0.5%;
+}
+.three.middle{
+  width: 50%;
+}
+.foot{
+  overflow: hidden;
+  position: relative;/*positioning background  text with image*/
+  background: rgba(19, 6, 201, 0.822); /* Black background with 0.5 opacity */
+  color: #a6ddda;
+  display: block;
+  text-align: center;
+  padding: 2%;
+  box-sizing: border-box;
+  font-size: 85%;
+}
+
+
+
+    </style>
+    </head>
+    <body>
+    <div class="Container">
+        <div class=one>
+            <h4>Cognizant</h4>
+           Cognizant began as Dun & Bradstreet Software (DBSS),
+             established as Dun & Bradstreet's in-house technology unit focused on implementing
+             large-scale IT projects for Dun & Bradstreet businesses.
+             In 1996, the company started pursuing customers beyond Dun & Bradstreet.
+             In 1996, Dun & Bradstreet spun off several of its subsidiaries including Eriscon, 
+             IMS International, Nielsen Media Research, Pilot Software, Strategic Technologies and DBSS, 
+             to form a new company called Cognizant Corporation, headquartered in Chennai, India. 
+             Three months later, in 1997, DBSS renamed itself to Cognizant Technology Solutions. 
+             In July 1997, Dun & Bradstreet bought Satyam's 24% stake in DBSS for $3.4 million.
+             Headquarters were moved to the United States, and in March 1998, Kumar Mahadeva was named CEO.
+             Operating as a division of the Cognizant Corporation,
+             the company focused on Y2K-related projects and web development.
+        </div>
+        <div class=column>
+            <img src="Cognizant.jpg" width="300" height="200">
+        </div>
+        <div>
+            <div class="three">
+            <h4>What makes Cognizant Unique?</h4>
+             Our unique Two-in-a-Box customer-relationship model offers greater customer intimacy,
+             speed of delivery, local decisionmaking, and responsiveness, which has helped Cognizant build deep, 
+             fast-growing partnerships with clients. 
+            Started as the technology arm of The Dun & Bradstreet Corporation.
+            <ul>
+                <h4> Techologies Cognizant Works on</h4>
+                <li>Artificial Intelligence</li>
+                <li>Digial Engineering </li>
+                <li>Internet of Things</li>
+                <li>Enterprise Services</li>
+                <li>Indutry and Plaform Solutions</li>
+                <li>Inelligent Process Automation</li>
+                <li>Cloud Enablement</li>
+                <li>Quality Engineering and Asurance</li>
+            </ul>
+        </div>
+    </div>
+</div>
+    </body>
+    <footer>
+        <div class="foot">
+     Thank you for Spending your time to know about Cognizant !!!!
+    </div>
+    </footer>
+</html>
